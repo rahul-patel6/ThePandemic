@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(240, 141, 255);
+    color: rgb(112, 112, 237);
+    margin: 0;
+    font-family:'Oswald', sans-serif;    
+}
+
+h1 {
+    font-size: 12em;
+    margin: 0 0.1em 0 0;
+}
+
+h2 {
+    font-size: 3em;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.mainnavbar {
+    text-align: center;
+    font-size: 1.5;
+    padding: 2px;
+    margin-bottom: 10%;
+}
+
+p {
+    width: 50%;
+    font-size: 1.1em;
+    float: right;
+    margin-right: 30px;
+}
+
+a {
+    padding: 20px;
+    margin: 10px;
+    text-decoration: dotted;
+    color: rgb(206, 0, 161);
+}
+
+a:hover {
+    background-color: rgb(112, 112, 237);
+    color: white;
+}
+
+#footer {
+    width: 100%;
+    color: rgb(112, 112, 237);
+    padding: 30px;
+    text-align: center;
+}
+
+article {
+    text-align: center;
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 65vh;
+}
+
+iframe {
+    margin: 3%;
+    margin-left: 5%;
+    float: center;
+}
+
+@media screen and (min-width: 700px){}
